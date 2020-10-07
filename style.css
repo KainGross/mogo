@@ -25,6 +25,8 @@ html::-webkit-scrollbar {
 .header {
     width: 100%;
     background-image: -ms-linear-gradient(90deg, rgba(252, 227, 138, .8) 0%, rgba(243, 129, 129, .8) 100%), url(img/petux.png);
+    background-image: -moz-linear-gradient(90deg, rgba(252, 227, 138, .8) 0%, rgba(243, 129, 129, .8) 100%), url(img/petux.png);
+    background-image: -webkit-linear-gradient(90deg, rgba(252, 227, 138, .8) 0%, rgba(243, 129, 129, .8) 100%), url(img/petux.png);
     padding: 25px 0;
 }
 
@@ -280,6 +282,8 @@ hr {
     width: calc(100% - 10px);
     height: calc(100% - 10px);
     background-image: -ms-linear-gradient(90deg, rgba(252, 227, 138, .8) 0%, rgba(243, 129, 129, .8) 100%);
+    background-image: -moz-linear-gradient(90deg, rgba(252, 227, 138, .8) 0%, rgba(243, 129, 129, .8) 100%), url(img/petux.png);
+    background-image: -webkit-linear-gradient(90deg, rgba(252, 227, 138, .8) 0%, rgba(243, 129, 129, .8) 100%), url(img/petux.png);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -412,6 +416,8 @@ hr {
 
 .gradient {
     background-image: -ms-linear-gradient(90deg, rgba(252, 227, 138, .8) 0%, rgba(243, 129, 129, .8) 100%);
+    background-image: -moz-linear-gradient(90deg, rgba(252, 227, 138, .8) 0%, rgba(243, 129, 129, .8) 100%), url(img/petux.png);
+    background-image: -webkit-linear-gradient(90deg, rgba(252, 227, 138, .8) 0%, rgba(243, 129, 129, .8) 100%), url(img/petux.png);
 }
 
 .unique {
